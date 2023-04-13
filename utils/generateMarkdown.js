@@ -1,7 +1,23 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  
+  switch (license) {
+    case "Creative Commons Zero v1.0 Universal":
+      https://img.shields.io/badge/license-Creative%20Commons%20Zero%20v1.0%20Universal-yellow
+      break;
+    case "Apache 2.0":
+      https://img.shields.io/badge/License-Apache_2.0-blue.svg
+      break;
+    case "MIT":
+      https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT
+      break;
+    case "Mozilla Public 2.0":
+      https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0
+      break;
+    case "None"
+    https://img.shields.io/badge/license-None-lightgrey
+    break;
+  }
 }
 
 // TODO: Create a function that returns the license link
