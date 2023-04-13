@@ -11,13 +11,34 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+function generateREADME(data) {
   return `
   # ${data.title}
 
   ## Description
     ${data.description}
 
+  ## Table of Contents
+    ${data.ToC}
+    - [Installation](#installation)
+
+  ## Insallation
+    ${data.installation}
+
+  ## Usage
+    ${data.usage}
+
+  ## Contributors
+    ${data.contributions}
+
+  ## License
+    ${data.license}
+
+  ## Githiub Repo
+   ${data.question}
+
+   ## Tests
+    ${data.tests}
 `;
 }
 
