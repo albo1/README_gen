@@ -30,7 +30,7 @@ inquirer
             message: "Usage?",
         },
         {
-            type: "list",
+            type: "choices",
             name: "license",
             message: ["Creative Commons Zero v1.0 Universal", "Apache 2.0", "MIT", "Mozilla Public 2.0", "None"],
         },
@@ -50,7 +50,17 @@ inquirer
             message: "What is your Github deploy link?",
         }
 
-    ]);
+    ])
+    .then((data) => {
+        let readMe = generateREADME(data)
+        // console.log(generateREADME(data))
+
+        fs.writeFile("README2.md", readMe, (err) =>
+        err ? console.log(err) : console.log("success") 
+        );
+    })
+
+
 
 
 
