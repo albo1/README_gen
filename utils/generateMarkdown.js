@@ -14,11 +14,14 @@ function renderLicenseBadge(license) {
     case "Mozilla Public 2.0":
       https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0
       break;
-    case "None"
-    https://img.shields.io/badge/license-None-lightgrey
-    break;
+    case "None":
+      https://img.shields.io/badge/license-None-lightgrey
+      break;
   }
 }
+
+//call renderLicenceBadge somewhere on the page but its 11:52pm
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
