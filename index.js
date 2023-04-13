@@ -30,9 +30,16 @@ inquirer
             message: "Usage?",
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
-            message: ["Creative Commons Zero v1.0 Universal", "Apache 2.0", "MIT", "Mozilla Public 2.0", "None"],
+            message: "License?",
+            choices: [
+                "Creative Commons Zero v1.0 Universal",
+                "Apache 2.0",
+                "MIT",
+                "Mozilla Public 2.0", 
+                "None"
+            ]
         },
         {
             type: "input",
