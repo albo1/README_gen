@@ -17,12 +17,12 @@ inquirer
         {
             type: "input",
             name: "ToC",
-            message: "Table of Contents:",
+            message: "Table of Contents?",
         },
         {
             type: "input",
             name: "installation",
-            message: "Installation",
+            message: "Installation Process?",
         },
         {
             type: "input",
@@ -30,15 +30,27 @@ inquirer
             message: "Usage?",
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
-            message: "Licenses",
+            message: ["Creative Commons Zero v1.0 Universal", "Apache 2.0", "MIT", "Mozilla Public 2.0", "None"],
         },
         {
-            
+            type: "input",
+            name: "contributions",
+            message: "Contributions?",
+        },
+        {
+            type: "input",
+            name: "tests",
+            message: "Run Tests?",
+        },
+        {
+            type: "input",
+            name: "question",
+            message: "What is your Github deploy link?",
         }
 
-    ])
+    ]);
 
 
 
