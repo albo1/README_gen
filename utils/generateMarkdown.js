@@ -41,7 +41,12 @@ function generateREADME(data) {
 
   ## Table of Contents
     ${data.ToC}
+    - [Description](#descriptionn)
     - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributors](#contirbutors)
+    - [License](#license)
+    - [Contact](#contact)
 
   ## Insallation
     ${data.installation}
