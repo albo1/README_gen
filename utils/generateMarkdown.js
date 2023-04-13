@@ -34,8 +34,10 @@ function generateREADME(data) {
   ## License
     ${data.license}
 
-  ## Githiub Repo
-   ${data.question}
+  ## Contact
+  My Github profile is: ${data.question1}
+
+  If your have any questions reach out to me at: ${data.question2}
 
    ## Tests
     ${data.tests}

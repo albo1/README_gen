@@ -30,7 +30,7 @@ inquirer
             message: "Usage?",
         },
         {
-            type: "choices",
+            type: "input",
             name: "license",
             message: ["Creative Commons Zero v1.0 Universal", "Apache 2.0", "MIT", "Mozilla Public 2.0", "None"],
         },
@@ -46,8 +46,13 @@ inquirer
         },
         {
             type: "input",
-            name: "question",
-            message: "What is your Github deploy link?",
+            name: "question1",
+            message: "What is your Github Username?",
+        },
+        {
+            type: "input",
+            name: "question2",
+            message: "What is your email address?",
         }
 
     ])
